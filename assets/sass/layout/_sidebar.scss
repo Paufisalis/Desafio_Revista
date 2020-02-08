@@ -1,0 +1,58 @@
+aside{
+   // background-color: orange;
+   text-align: center;
+   margin-left: 50px;
+ 
+
+}
+
+.cabecera-listado{
+   text-align: left;
+   padding:0 1.5rem;
+
+   h2{
+      font-size: 1.5rem;
+      color: rgb(77, 77, 77);
+   }
+
+   p{
+      font-size: 0.9rem;
+      color: rgb(77, 77, 77);
+   }
+}
+
+.tags{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 1.5rem;
+   
+
+   h2{
+      font-size: 1.4rem;
+      color: rgb(77, 77, 77);
+   }
+
+   li{
+      display: inline-block;
+      padding-right: 0 0.5rem;
+   }
+
+   button{
+      background-color: teal;
+      color: white;
+      border: 0;
+      padding: 8px;
+
+      &:hover{
+      background-color: rgb(17, 199, 199); 
+      }
+   }
+  
+}
+
+.noticias-destacadas{
+   margin-top: 20px;
+   color: rgb(77, 77, 77);
+}
+

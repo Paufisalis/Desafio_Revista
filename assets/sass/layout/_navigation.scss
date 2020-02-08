@@ -1,0 +1,51 @@
+nav{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    box-shadow: 2px 2px 5px #999;
+    
+    h3{
+        font-size: 1rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: rgb(77, 77, 77);
+    }
+    
+    
+    li{
+        display: inline-block;
+        padding-right: 0.5rem;
+        
+        a{
+            text-decoration: none;
+            color: rgb(77, 77, 77);
+            font-size: 0.9rem;
+            
+            &:hover{
+                
+                color: white;
+                background-color:  #999;
+                opacity: 0.6;
+                padding: 30% 5%;
+            }
+        }
+        
+        &:last-child{
+            padding-right: 0;
+        }
+    }
+}
+
+@media(max-width:576px){
+    
+    .nav__menu{
+        display: flex;
+        justify-content: space-around;
+    }
+    .btn_nosotros{
+        visibility:hidden;
+    }
+    
+}
